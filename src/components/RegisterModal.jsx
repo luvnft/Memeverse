@@ -113,12 +113,12 @@ const RegisterModal = () => {
     <div>
       <div className="max-w-[80%] w-max px-[65px] py-[61px] mx-auto relative rounded-lg bg-[#4c4c4c69] h-[29.063rem] overflow-hidden text-left text-[0.875rem] text-[#9ca3af] font-inter">
         <div className="grid grid-cols-12 gap-[70px]">
-          <div className=" col-span-6">
+          <div className="col-span-6 ">
             <div className=" w-[343px] h-[343px] ">
-              <img src="https://i.imgur.com/OpQlE8H.png" alt="" />
+              <img src="https://i.imgur.com/vemNrxS.png" alt="" />
             </div>
           </div>
-          <div className=" col-span-6">
+          <div className="col-span-6 ">
             <div
               className={`  relative flex flex-col  ${hide ? "hidden" : ""} `}
             >
@@ -170,8 +170,7 @@ const RegisterModal = () => {
                 />
               </div>
               <div
-                className=" my-3
-          "
+                className="my-3 "
               >
                 <img
                   onClick={handleImageClick}
@@ -179,8 +178,8 @@ const RegisterModal = () => {
                   alt=""
                 />
                 {/* image and submit */}
-                <div className="flex justify-between px-4 pb-3 items-center">
-                  <div className=" cursor-pointer">
+                <div className="flex items-center justify-between px-4 pb-3">
+                  <div className="cursor-pointer ">
                     {/* <img
               className=" w-[26px] object-cover  "
               src={`${!selectedImage ? "https://i.imgur.com/lfZjBZs.png" : ""}`}

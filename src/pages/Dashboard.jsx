@@ -63,20 +63,20 @@ export default function Dashboard() {
           <RegisterModal reload={setReload} />
         </div>
       </div>
-      <div className="flex flex-col  ml-10 w-full  max-md:max-w-full">
+      <div className="flex flex-col w-full ml-10 max-md:max-w-full">
         <div className="self-stretch w-full max-md:max-w-full">
           {/* navbar
            */}
-          <div className="flex justify-evenly autoShow  max-md:flex-col ">
+          <div className="flex justify-evenly autoShow max-md:flex-col ">
             <div className="flex flex-col  w-[17%] max-md:ml-0 max-md:w-full">
               <img
                 draggable={`false`}
                 loading="lazy"
-                srcSet="https://i.imgur.com/1Rf7A8y.png"
+                srcSet="https://i.imgur.com/xAtVFOb.png"
                 className="object-contain  grow shrink-0 max-w-full aspect-[1.33] w-[162px] max-md:mt-10"
               />
             </div>
-            <div className="flex flex-col ml-5 mx-auto w-full max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col w-full mx-auto ml-5 max-md:ml-0 max-md:w-full">
               <div className="flex  w-max  relative right-36 gap-10 justify-between items-center  m-auto  min-w-[320px] max-md:mt-10 max-md:max-w-full">
                 <div className="w-full py-2 flex gap-[51px] px-3 items-center justify-evenly relative rounded-[48px] border-[#767676] border-[1px] border-solid box-border h-[2.438rem] overflow-clip text-left text-[1.125rem] text-[#7b7b7b] font-inter">
                   <div
@@ -162,7 +162,7 @@ export default function Dashboard() {
                         <WalletSelector setModalOpen={isWalletOpen} />
                       </div>
 
-                      <div className=" capitalize font-medium">
+                      <div className="font-medium capitalize ">
                         Connect Wallet
                       </div>
                     </div>
@@ -198,7 +198,7 @@ export default function Dashboard() {
         </div>
       </div>
       {/* first part */}
-      <div className=" relative w-full h-auto ">
+      <div className="relative w-full h-auto ">
         {/* absolute part */}
         <div className="absolute right-0 top-[127px] overflow-visible ">
           <img
@@ -214,7 +214,7 @@ export default function Dashboard() {
             alt=""
           />
         </div>
-        <div className="absolute  top-16">
+        <div className="absolute top-16">
           <img src="https://i.imgur.com/gBW9LUu.png" alt="" />
         </div>
 
@@ -222,9 +222,9 @@ export default function Dashboard() {
           <div className="w-max mx-auto relative capitalize text-[6.875rem] font-bebas-neue text-center inline-block [filter:drop-shadow(0px_30px_60px_rgba(0,_0,_0,_0.5))] text-white">
             <span>{`create memes like a `}</span>
             <span className="text-[#ffe500] p-2 px-5 w-max  relative">
-              pro
+              co
               <img
-                className="absolute bottom-0 z-10 right-0 object-cover overflow-visible"
+                className="absolute bottom-0 right-0 z-10 object-cover overflow-visible"
                 src="https://i.imgur.com/9Rn9OMz.png"
                 alt=""
               />
@@ -233,7 +233,7 @@ export default function Dashboard() {
         </div>
         <div>
           <div className="w-max mx-auto flex flex-col mt-5 relative text-[1.563rem] font-medium font-inter text-white text-center  h-[4.313rem]">
-            {`  Get meme-fied in a snap with MemeVerse. Instant laughs, zero effort.`}
+            {`  Get meme-fied in a snap with MemeCO. Instant laughs, zero effort.`}
             <span>{`Let's meme it!`}</span>
           </div>
         </div>
@@ -260,7 +260,7 @@ export default function Dashboard() {
           </div>
         </div>
 
-        <div className="w-max  mx-auto">
+        <div className="mx-auto w-max">
           <div className="w-max mx-auto autoShow relative text-[5.188rem] font-bebas-neue text-white text-left inline-block">
             Features that'll make you go "STONKS"
           </div>
@@ -269,7 +269,7 @@ export default function Dashboard() {
 
       {/* second part */}
       <div className=" mt-[60px] autoShow px-[50px] grid grid-cols-12 gap-9">
-        <div className=" col-span-4">
+        <div className="col-span-4 ">
           <img
             onContextMenu={(e) => e.preventDefault()}
             draggable={"false"}
@@ -278,7 +278,7 @@ export default function Dashboard() {
             className=""
           />
         </div>
-        <div className=" col-span-4">
+        <div className="col-span-4 ">
           <img
             onContextMenu={(e) => e.preventDefault()}
             draggable={"false"}
@@ -286,7 +286,7 @@ export default function Dashboard() {
             alt=""
           />
         </div>
-        <div className=" col-span-4">
+        <div className="col-span-4 ">
           <img
             onContextMenu={(e) => e.preventDefault()}
             draggable={"false"}
@@ -295,8 +295,8 @@ export default function Dashboard() {
           />
         </div>
       </div>
-      <div className=" mt-24">
-        <div className="flex autoShow items-center justify-center    ">
+      <div className="mt-24 ">
+        <div className="flex items-center justify-center autoShow ">
           <img
             onClick={() => {
               navigate("/type");
@@ -319,16 +319,16 @@ export default function Dashboard() {
 
       {/* Pics */}
       <div className="grid autoShow grid-cols-12 mt-10 gap-8 px-[72px]">
-        <div className=" col-span-3">
+        <div className="col-span-3 ">
           <img src="https://i.imgur.com/xtaI51s.png" alt="" />
         </div>
-        <div className=" col-span-3">
+        <div className="col-span-3 ">
           <img
             src="https://shreyashsingh.publit.io/file/output-qmZ.jpg"
             alt=""
           />
         </div>
-        <div className=" col-span-3">
+        <div className="col-span-3 ">
           <video
             autoPlay
             loop
@@ -336,7 +336,7 @@ export default function Dashboard() {
             src="https://i.imgur.com/vxuWBsU.mp4"
           ></video>
         </div>
-        <div className=" col-span-3">
+        <div className="col-span-3 ">
           <img src="https://i.imgur.com/SuMm1os.jpeg" alt="" />
         </div>
       </div>
@@ -418,13 +418,13 @@ export default function Dashboard() {
           <div className=" tracking-[-0.04em] [filter:drop-shadow(0px_30px_60px_rgba(0,_0,_0,_0.5))]">
             <span>{`Transform thoughts into `}</span>
             <span className="text-[#ffe500]   autoShow  ">Memes</span>
-            <span> with MEMEVERSE</span>
+            <span> with MEMECO</span>
           </div>
-          <div className="text-[1.5rem]    uppercase font-medium font-inter text-[#8d8d8d]">{`Make your self laugh on your own thoughts `}</div>
+          <div className="text-[1.5rem]    uppercase font-medium font-inter text-[#8d8d8d]">{`One viral MemeCo will change your life.`}</div>
         </div>
       </div>
 
-      <div className=" mt-20">
+      <div className="mt-20 ">
         <Footer />
       </div>
     </div>

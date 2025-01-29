@@ -14,19 +14,19 @@ const Navbar = () => {
     const navigate = useNavigate();
 
   return (
-    <div className="self-stretch  pt-5 w-full max-md:max-w-full">
+    <div className="self-stretch w-full pt-5 max-md:max-w-full">
       {/* navbar
        */}
-      <div className="flex justify-evenly px-12  max-md:flex-col ">
-        <div className="flex flex-col  mx-auto max-md:ml-0 max-md:w-full">
+      <div className="flex px-12 justify-evenly max-md:flex-col ">
+        <div className="flex flex-col mx-auto max-md:ml-0 max-md:w-full">
           <img
             draggable={`false`}
             loading="lazy"
-            srcSet="https://i.imgur.com/1Rf7A8y.png"
+            srcSet="https://i.imgur.com/xAtVFOb.png"
             className="object-contain grow shrink-0 max-w-full aspect-[1.33] w-[162px] max-md:mt-10"
           />
         </div>
-        <div className="flex flex-col ml-5 mx-auto w-full max-md:ml-0 max-md:w-full">
+        <div className="flex flex-col w-full mx-auto ml-5 max-md:ml-0 max-md:w-full">
           <div className="flex  w-max  relative right-36 gap-10 justify-between items-center  m-auto  min-w-[320px] max-md:mt-10 max-md:max-w-full">
             <div className="w-full py-2 flex gap-[51px] px-3 items-center justify-evenly relative rounded-[48px] border-[#767676] border-[1px] border-solid box-border h-[2.438rem] overflow-hidden text-left text-[1.125rem] text-[#7b7b7b] font-inter">
               <div
@@ -86,7 +86,7 @@ const Navbar = () => {
                 navigate('/profile')
               }}>
                 <div className="w-max px-[14px] py-[9px]  cursor-pointer hover:scale-105 hover:opacity-80 transition-all duration-200 flex items-center justify-center relative rounded-[48px] border-[#767676] border-[1px] border-solid box-border h-[2.438rem] overflow-hidden text-left text-[1.125rem] text-white font-inter">
-                  <div className=" capitalize font-medium">Profile</div>
+                  <div className="font-medium capitalize ">Profile</div>
                 </div>
               </div>
             ) : (
@@ -97,7 +97,7 @@ const Navbar = () => {
                   }}
                   className="w-max px-[14px] py-[9px]  cursor-pointer hover:scale-105 hover:opacity-80 transition-all duration-200 flex items-center justify-center relative rounded-[48px] border-[#767676] border-[1px] border-solid box-border h-[2.438rem] overflow-hidden text-left text-[1.125rem] text-white font-inter"
                 >
-                  <div className=" capitalize font-medium">Connect Wallet</div>
+                  <div className="font-medium capitalize ">Connect Wallet</div>
                 </div>
                 <div
                   ref={walletSelectorRef}
